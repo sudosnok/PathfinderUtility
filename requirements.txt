@@ -1,0 +1,6 @@
+aiohttp>=3.8.0,<4
+beautifulsoup4==4.10.0
+lxml==4.8.0
+PyQt5==5.15.6
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.9.1
