@@ -246,7 +246,7 @@ class UI(QMainWindow):
 
         for ability, score in feat.ability_scores.items():
             if score != 0:
-                getattr(self, f'f_{ability.lower()}').setText(str(score))
+                getattr(self, f'f_{ability.lower()[:3]}').setText(str(score))
 
         misc = ''
         for skill, score in feat.skill_ranks.items():
